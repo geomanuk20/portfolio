@@ -1,0 +1,214 @@
+@media screen and (max-width: 1400px) {
+    #profile {
+      height: 83vh;
+      margin-bottom: 6rem;
+    }
+    .about-containers {
+      flex-wrap: wrap;
+    }
+    #contact,
+    #projects {
+      height: fit-content;
+    }
+  }
+  
+  @media screen and (max-width: 1200px) {
+    #desktop-nav {
+        position: fixed; /* Fix the nav to the top of the viewport */
+        top: 0; /* Position it at the very top */
+        left: 0; /* Align it to the left */
+        width: 100%; /* Make it span the full width */
+        background-color: rgba(255, 255, 255, 0.8); /* White with some transparency */
+        backdrop-filter: blur(10px); /* Applies the blur effect */
+        z-index: 1000; /* Ensure it stays above other content */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: add a shadow for depth */
+        height: 75px;
+    }
+    #hamburger-nav {
+      display: flex;
+    }
+    #experience,
+    .experience-details-container {
+      margin-top: 2rem;
+    }
+    #profile,
+    .section-container {
+      display: block;
+    }
+    .arrow {
+      display: none;
+    }
+    section,
+    .section-container {
+      height: fit-content;
+    }
+    section {
+      margin: 0 5%;
+    }
+    .section__pic-container {
+      width: 275px;
+      height: 275px;
+      margin: 0 auto 2rem;
+    }
+    .about-containers {
+      margin-top: 0;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    #contact,
+    footer {
+      height: 10vh;
+    }
+    #profile {
+      height: 83vh;
+      margin-bottom: 0;
+    }
+    article {
+      font-size: 1rem;
+    }
+    footer nav {
+      height: fit-content;
+      margin-bottom: 2rem;
+    }
+    .about-containers,
+    .contact-info-upper-container,
+    .btn-container {
+      flex-wrap: wrap;
+    }
+    .contact-info-container {
+      margin: 0;
+    }
+    .contact-info-container p,
+    .nav-links li a {
+      font-size: 1rem;
+    }
+    .experience-sub-title {
+      font-size: 1.25rem;
+    }
+    .logo {
+      font-size: 1.5rem;
+    }
+    .nav-links {
+      flex-direction: column;
+      gap: 0.5rem;
+      text-align: center;
+    }
+    .section__pic-container {
+      width: auto;
+      height: 46vw;
+      justify-content: center;
+    }
+    .section__text__p2 {
+      font-size: 1.25rem;
+    }
+    .title {
+      font-size: 2rem;
+    }
+    .text-container {
+      text-align: justify;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .navbar {
+      display: none; /* Hide navbar on mobile by default */
+      flex-direction: column;
+      position: absolute;
+      top: 70px;
+      left: 0;
+      width: 100%;
+      background-color: rgba(255, 255, 255, 0.9); /* White with some transparency */
+      backdrop-filter: blur(10px); /* Applies the blur effect */
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: all 0.5s ease;
+    }
+    .navbar.show {
+        display: flex;
+        opacity: 1;
+        transform: translateY(0);
+      }
+      
+      .navbar.hide {
+        opacity: 0;
+        transform: translateY(-80px);
+      }
+    .hamburger-menu {
+      display: block; /* Show hamburger on mobile */
+    }
+  
+    .navbar.active {
+      display: flex; /* Show navbar when active */
+    }
+    #hamburger-nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: rgba(255, 255, 255, 0.8); /* White with some transparency */
+      backdrop-filter: blur(10px); /* Applies the blur effect */
+      z-index: 1000;
+      height: 75px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+  }
+  
+     #menu-icon{
+      padding-left: 300px;
+    }
+    #desktop-nav{
+        display: none;
+    }
+    .input-box {
+        flex-direction: row;
+      }
+      #contact textarea {
+        width: 480px;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: ghostwhite;
+        color: black;
+        border: 1px solid gainsboro;
+    }
+}
+/* For small devices (tablets, phones, etc.) */
+@media screen and (max-width: 768px) {
+  #contact {
+    padding: 50px;
+}
+
+#contact .input-box {
+    flex-direction: column;
+    gap: 10px;
+}
+
+#contact .input-box input,
+#contact textarea {
+    width: 100%;
+    padding: 10px;
+}
+}
+
+/* For very small devices (phones in portrait mode) */
+@media screen and (max-width: 480px) {
+  #contact .section__text__p1 {
+      font-size: 16px;
+  }
+
+  #contact .title {
+      font-size: 28px;
+  }
+
+  #contact form {
+      padding: 5px;
+  }
+
+  #contact .btn {
+      width: 100%;
+  }
+  #contact{
+    width: fit-content;
+  }
+  #menu-icon{
+    padding-left: 150px;
+  }
+}
