@@ -24,9 +24,6 @@
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: add a shadow for depth */
         height: 75px;
     }
-    #hamburger-nav {
-      display: flex;
-    }
     #experience,
     .experience-details-container {
       margin-top: 2rem;
@@ -108,6 +105,9 @@
     .text-container {
       text-align: justify;
     }
+    #hamburger-nav {
+      display: flex;
+    }
   }
   @media only screen and (max-width: 768px) {
     .navbar {
@@ -168,6 +168,9 @@
         background-color: ghostwhite;
         color: black;
         border: 1px solid gainsboro;
+    }
+      #hamburger-nav {
+      display: flex;
     }
 }
 /* For small devices (tablets, phones, etc.) */
