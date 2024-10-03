@@ -108,6 +108,10 @@
     #hamburger-nav {
       display: flex;
     }
+      footer {
+    padding: 0.5rem;
+    font-size: 0.9rem; /* Adjust font size for smaller screens */
+  }
   }
   @media only screen and (max-width: 768px) {
     .navbar {
