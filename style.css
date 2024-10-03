@@ -450,10 +450,13 @@ article .icon {
 /* FOOTER SECTION */
 
 footer {
-    height: 10vh;
-    margin: 0 1rem;
-  }
-  
-  footer p {
-    text-align: center;
-  }
+  text-align: center;
+  padding: 1rem;
+  background-color: #f1f1f1; /* or your preferred color */
+  font-size: 1rem; /* Make font size responsive */
+}
+
+footer p {
+  margin: 0; /* Remove margin for better spacing on small screens */
+  line-height: 1.5; /* Improve readability */
+}
