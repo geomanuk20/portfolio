@@ -451,26 +451,14 @@ article .icon {
 
 .footer{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   padding:2rem 9%;
-  background: var(--second-bg-color);
 }
 .footer-text p{
-  color: white;
+  color: black;
   font-size: medium;
-}
-.footer-icon-top a{
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  padding: .8rem;
-  background: var(--main-color);
-  border-radius: .8rem;
-}
-.footer-icon-top a:hover{
-  box-shadow: 0 0 1rem var(--main-color);
 }
 
 .footer-icon-top a i{
