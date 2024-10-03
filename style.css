@@ -450,18 +450,10 @@ article .icon {
 /* FOOTER SECTION */
 
 footer {
-  text-align: center;
-  padding: 1rem;
-  background-color: #f1f1f1; /* Feel free to change to your preferred color */
-  font-size: 1rem; /* Base font size */
-  font-size: clamp(0.9rem, 2vw, 1rem); /* Responsive font size */
-  color: #333; /* Text color */
-}
-
-footer p {
-  margin: 0;
-  line-height: 1.5;
-  word-spacing: 0.05em; /* Improve readability */
-  letter-spacing: 0.02em; /* Slight letter spacing */
-}
-
+    height: 10vh;
+    margin: 0 1rem;
+  }
+  
+  footer p {
+    text-align: center;
+  }
