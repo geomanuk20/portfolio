@@ -450,10 +450,6 @@ article .icon {
 /* FOOTER SECTION */
 
 footer {
-    height: 10vh;
-    margin: 0 1rem;
-  }
-  
-  footer p {
     text-align: center;
-  }
+    padding: 20px 0; /* Adds padding to ensure footer content isn't too close to the top */
+}
