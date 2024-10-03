@@ -157,9 +157,9 @@
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
   }
   
-     #menu-icon{
-      padding-left: 300px;
-    }
+    #menu-icon{
+    float: right;
+  }
     #desktop-nav{
         display: none;
     }
@@ -217,6 +217,6 @@
     width: fit-content;
   }
   #menu-icon{
-    padding-left: 150px;
+    float: right;
   }
 }
