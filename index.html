@@ -55,7 +55,7 @@
         <div class="btn-container">
           <button
             class="btn btn-color-2"
-            onclick="window.open('https://drive.google.com/file/d/1B-Y5K3ujlfQvStlaDmuaWxhuolHsEfZ2/view?usp=sharing')"
+            onclick="window.open('https://drive.google.com/file/d/1IPuos8j4N9cXa4VrPDlwKE6RQpO5lQhI/view?usp=sharing')"
           >
             Download CV
           </button>
@@ -162,7 +162,7 @@
                 />
                 <div>
                   <h3>JavaScript</h3>
-                  <p>Basic</p>
+                  <p>Intermediate</p>
                 </div>
               </article>
               <article>
@@ -200,7 +200,7 @@
                 />
                 <div>
                   <h3>MongoDB</h3>
-                  <p>Basic</p>
+                  <p>Intermediate</p>
                 </div>
               </article>
               <article>
@@ -270,6 +270,14 @@
               </button>
             </div>
           </div>
+
+          <div id="readMoreModal" class="modal">
+            <div class="modal-content">
+              <span class="close" onclick="closeModal()">&times;</span>
+              <p>Here is the extended description of the project...</p>
+            </div>
+          </div>
+
           <div class="details-container color-container">
             <div class="article-container">
               <img
@@ -279,7 +287,6 @@
               />
             </div>
             <h2 class="experience-sub-title project-title">Apple Clone</h2>
-            <h4>using tailwind css</h4>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
@@ -295,30 +302,147 @@
               </button>
             </div>
           </div>
+
+          <div id="readMoreModal" class="modal">
+            <div class="modal-content">
+              <span class="close" onclick="closeModal()">&times;</span>
+              <p>Here is the extended description of the project...</p>
+            </div>
+          </div>
+
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/project-3.png"
+                src="./assets/Screenshot 2025-01-27 153922.png"
                 alt="Project 3"
                 class="project-img"
               />
+              <p class="read-more" onclick="openModal('fashionFusion')">Details</p>
             </div>
-            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <h2 class="experience-sub-title project-title">Fashion Fusion</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://github.com/geomanuk20/fashion-fusion-frontend'"
               >
                 Github
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://fashion-fusion-frontend-x2sa.onrender.com/'"
               >
                 Live Demo
               </button>
             </div>
           </div>
+
+          <div id="fashionFusion" class="modal">
+            <div class="modal-content">
+              <span class="close" onclick="closeModal('fashionFusion')">&times;</span>
+              <br>
+              <h3>Fashion Fusion</h3>
+              <br>
+              <ul>
+                <li>Developed an E-commerce Application using React, Node.js, Express and MongoDB .</li>
+              <li>Implemented secure user authentication using JWT and integrated role-based authorization.</li>
+              <li>Designed an intuitive shopping cart experience with real-time updates using Redux for state management.</li>
+              <li>Created an admin panel for product management, order management, and user management, enhancing
+                administrative control.</li>
+                <li>Designed and implemented RESTful APIs with Node.js and Express to handle server-side operations
+                  efficiently.</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Screenshot 2025-01-27 154834.png"
+                alt="Project 3"
+                class="project-img"
+              />
+              <p class="read-more" onclick="openModal('doctorCare')">Details</p>
+            </div>
+            <h2 class="experience-sub-title project-title">Doctor Care</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/geomanuk20/Doctor-care-frontend'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://doctor-care-frontend.onrender.com'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+
+          <div id="doctorCare" class="modal">
+            <div class="modal-content">
+              <span class="close" onclick="closeModal('doctorCare')">&times;</span>
+              <br>
+              <h3>Dcotor Care</h3>
+              <br>
+              <ul>
+                <li>Developed an Booking Application using React,Tailwind CSS Node.js, Express and MongoDB .</li>
+              <li>Designed a flexible appointment scheduling system with real-time availability checks and booking
+                confirmation.</li>
+              <li>Created detailed profiles for doctors, including specialization, availability, and ratings, to help patients make
+                informed decisions</li>
+              <li>Built an admin panel for managing doctors, appointments, and user accounts, providing comprehensive
+                administrative control.</li>
+              </ul>
+
+            </div>
+          </div>
+          
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/Screenshot 2025-01-27 155333.png"
+                  alt="Project 3"
+                  class="project-img"
+                />
+                <p class="read-more" onclick="openModal('foodOrder')">Details</p>
+              </div>
+              <h2 class="experience-sub-title project-title">Food Order platform</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/geomanuk20/mern-food-ordering-app-frontend'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://mern-food-ordering-app-frontend-6xd4.onrender.com'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+          
+          <!-- Modal -->
+          <div id="foodOrder" class="modal">
+            <div class="modal-content">
+              <span class="close" onclick="closeModal('foodOrder')">&times;</span>
+              <br>
+              <h3>Food Ordering Platform</h3>
+              <br>
+              <ul>
+                <li>Developed a food ordering application using React.js, Redux, Node.js, Express, TypeScript, MongoDB, JWT, Tailwind CSS, Git, Auth0 (for Google Login).</li>
+                <li>Created features for restaurant owners to manage menus, update food items, and track orders in real-time.</li>
+                <li>Implemented a seamless order processing system with real-time updates, order tracking, and payment integration.</li>
+                <li>Developed a customer dashboard to manage orders and view order history.</li>
+              </ul>
+            </div>
+          </div>
+          
+          
+
         </div>
       </div>
     </section>
